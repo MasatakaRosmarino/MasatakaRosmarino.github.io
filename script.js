@@ -1,23 +1,3 @@
-/*var i = 0;
-function move() {
-  if (i == 0) {
-    i = 1;
-    var elem = document.getElementById("javaBar");
-    var width = 1;
-    var id = setInterval(frame, 10);
-
-    function frame() {
-      if (width >= 80) {
-        clearInterval(id);
-        i = 0;
-      } else {
-        width++;
-        elem.style.width = width + "%";
-      }
-    }
-  }
-}*/
-
 var javaElem = document.getElementById("javaBar");
 var phpElem = document.getElementById("phpBar");
 var jsElem = document.getElementById("jsBar");
@@ -42,14 +22,9 @@ var japInterval;
 var navElem = document.getElementById("nav");
 
 var defaultParagraphsList = document.getElementsByTagName("p");
-//console.log(paragraphsList.length);
-
-for(var i=0; i<defaultParagraphsList.length; i++){
-  //console.log(paragraphsList[i].innerHTML);
-}
 
 function frameJava() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 90) {
       clearInterval(javaInterval);
     } else {
@@ -60,7 +35,7 @@ function frameJava() {
 }
 
 function framePhp() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 80) {
       clearInterval(phpInterval);
     } else {
@@ -71,7 +46,7 @@ function framePhp() {
 }
 
 function frameJs() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 60) {
       clearInterval(jsInterval);
     } else {
@@ -82,7 +57,7 @@ function frameJs() {
 }
 
 function frameHtml() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 90) {
       clearInterval(htmlInterval);
     } else {
@@ -93,7 +68,7 @@ function frameHtml() {
 }
 
 function frameCss() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 70) {
       clearInterval(cssInterval);
     } else {
@@ -104,7 +79,7 @@ function frameCss() {
 }
 
 function frameEng() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 99) {
       clearInterval(engInterval);
     } else {
@@ -115,7 +90,7 @@ function frameEng() {
 }
 
 function frameSpa() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 99) {
       clearInterval(spaInterval);
     } else {
@@ -126,7 +101,7 @@ function frameSpa() {
 }
 
 function frameIta() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 100) {
       clearInterval(itaInterval);
     } else {
@@ -137,7 +112,7 @@ function frameIta() {
 }
 
 function frameJap() {
-  if(getCurrentPageName() == "index.html"){
+  if(getCurrentPageName() == ""){
     if (width >= 80) {
       clearInterval(japInterval);
     } else {
