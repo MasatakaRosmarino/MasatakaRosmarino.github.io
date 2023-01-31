@@ -24,101 +24,83 @@ var navElem = document.getElementById("nav");
 var defaultParagraphsList = document.getElementsByTagName("p");
 
 function frameJava() {
-  if(getCurrentPageName() == ""){
-    if (width >= 90) {
-      clearInterval(javaInterval);
-    } else {
-      width++;
-      javaElem.style.width = width + "%";
-    }
+  if (width >= 90) {
+    clearInterval(javaInterval);
+  } else {
+    width++;
+    javaElem.style.width = width + "%";
   }
 }
 
 function framePhp() {
-  if(getCurrentPageName() == ""){
-    if (width >= 80) {
-      clearInterval(phpInterval);
-    } else {
-      width++;
-      phpElem.style.width = width + "%";
-    }
+  if (width >= 80) {
+    clearInterval(phpInterval);
+  } else {
+    width++;
+    phpElem.style.width = width + "%";
   }
 }
 
 function frameJs() {
-  if(getCurrentPageName() == ""){
-    if (width >= 60) {
-      clearInterval(jsInterval);
-    } else {
-      width++;
-      jsElem.style.width = width + "%";
-    }
+  if (width >= 60) {
+    clearInterval(jsInterval);
+  } else {
+    width++;
+    jsElem.style.width = width + "%";
   }
 }
 
 function frameHtml() {
-  if(getCurrentPageName() == ""){
-    if (width >= 90) {
-      clearInterval(htmlInterval);
-    } else {
-      width++;
-      htmlElem.style.width = width + "%";
-    }
+  if (width >= 90) {
+    clearInterval(htmlInterval);
+  } else {
+    width++;
+    htmlElem.style.width = width + "%";
   }
 }
 
 function frameCss() {
-  if(getCurrentPageName() == ""){
-    if (width >= 70) {
-      clearInterval(cssInterval);
-    } else {
-      width++;
-      cssElem.style.width = width + "%";
-    }
+  if (width >= 70) {
+    clearInterval(cssInterval);
+  } else {
+    width++;
+    cssElem.style.width = width + "%";
   }
 }
 
 function frameEng() {
-  if(getCurrentPageName() == ""){
-    if (width >= 99) {
-      clearInterval(engInterval);
-    } else {
-      width++;
-      engElem.style.width = width + "%";
-    }
+  if (width >= 99) {
+    clearInterval(engInterval);
+  } else {
+    width++;
+    engElem.style.width = width + "%";
   }
 }
 
 function frameSpa() {
-  if(getCurrentPageName() == ""){
-    if (width >= 99) {
-      clearInterval(spaInterval);
-    } else {
-      width++;
-      spaElem.style.width = width + "%";
-    }
+  if (width >= 99) {
+    clearInterval(spaInterval);
+  } else {
+    width++;
+    spaElem.style.width = width + "%";
   }
 }
 
 function frameIta() {
-  if(getCurrentPageName() == ""){
-    if (width >= 100) {
-      clearInterval(itaInterval);
-    } else {
-      width++;
-      itaElem.style.width = width + "%";
-    }
+  if (width >= 100) {
+    clearInterval(itaInterval);
+  } else {
+    width++;
+    itaElem.style.width = width + "%";
   }
 }
 
 function frameJap() {
-  if(getCurrentPageName() == ""){
-    if (width >= 80) {
-      clearInterval(japInterval);
-    } else {
-      width++;
-      japElem.style.width = width + "%";
-    }
+  if (width >= 80) {
+    clearInterval(japInterval);
+  } else {
+    width++;
+    japElem.style.width = width + "%";
   }
 }
 
