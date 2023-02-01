@@ -19,7 +19,7 @@ var spaInterval;
 var itaInterval;
 var japInterval;
 
-var navElem = document.getElementById("nav");
+var navElem = document.querySelector("nav");
 
 var defaultParagraphsList = document.getElementsByTagName("p");
 
@@ -105,8 +105,7 @@ function frameJap() {
 }
 
 window.onload = function(){
-  navElem.style.position = "fixed";
-  navElem.style.top = "-40px";
+  navElem.classList.add("hidden-bar");
 }
 
 window.onscroll = function(){
@@ -123,8 +122,8 @@ window.onscroll = function(){
     japInterval = setInterval(frameJap, rate);
   }
 
-  navElem.style.top = "0px";
-  navElem.style.transition = "all .5s";
+  navElem.classList.remove("hidden-bar");
+  navElem.classList.add("visible-bar");
 } 
 
 function getCurrentPageName(){

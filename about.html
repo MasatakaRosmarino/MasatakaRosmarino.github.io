@@ -17,26 +17,18 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav id="nav" class="navbar navbar-expand-lg fixed-top px-3 py-0 border-bottom bg-dark bg-gradient shadow">              
-            <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-gradient shadow">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link text-light" href="#"> <i class="fas fa-home"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="projects.html">Projects</a>
-                    </li>
-                </ul>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active text-light" href="about.html">About</a>
+                    <a class="nav-link text-light" href="projects.html">Projects</a>
+                </div>
+                </div>
             </div>
         </nav>
 
@@ -47,28 +39,28 @@
         <section class="mb-5 pb-3">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-2">
+                    <div class="col-md-2">
                         <img src="images/masataka_rosmarino_cropped.jpg" alt="Masataka Rosmarino" class="img-thumbnail">
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <p>My name is Masataka Rosmarino, I am a self-taught programmer with solid knowledge of Object Oriented Programming, 
                             together with the most commonly used web-programming and Database languages.
                         </p>
 
-                        <p>I love creating MySQL database-driven desktop and web applications. I develop the former with Java, and the latter with PHP, JavaScript, HTML and CSS.</p>
+                        <p>I love creating MySQL database-driven desktop and web applications. I develop the former with Java and the latter with PHP, JavaScript, HTML and CSS.</p>
 
-                        <p>In 2014 I was awarded the Oracle Certified Associate, Java SE 7 Programmer, and although I haven't continued on with the certifications path, I am up to date with the latest
-                            innovations of the programming languages I use.
+                        <p>In 2014 I was awarded the Oracle Certified Associate, Java SE 7 Programmer, and although I haven't continued on with the certifications path, I constantly learn and apply the latest
+                            techniques in the programming languages I use.
                         </p>
 
-                        <p>Overall I consider myself a technology enthusiast who likes to create interactive software and gadgets, and a life-long learner who tries to expand his knowledge following the learn by doing philosophy.</p>
+                        <p>Overall I consider myself a technology enthusiast and a learner who likes to create digital and electronic products by following the learn by doing rule.</p>
 
-                        <p>Among my other passions there are:</p>
+                        <p>My other passions are:</p>
 
-                        <ul class="list-unstyled">
-                            <li>Vector graphics</li>
+                        <ul class="custom-bullet">
+                            <li>Vector graphics using <a href="https://inkscape.org/" target="_blank" class="text-decoration-none">Inkscape</a></li>
                             <li>Electronics</li>
-                            <li>Hobby robotics</li>
+                            <li>Hobby robotics using <a href="https://www.arduino.cc/" target="_blank" class="text-decoration-none">Arduino</a></li>
                         </ul>
                     </div>
                 </div>
@@ -132,27 +124,23 @@
             </div>
         </section>
 
-        <footer class="mt-5 pt-5 pb-3 bg-gradient">
+        <footer class="mt-5 pt-5 pb-3 bg-gradient border-top border-dark">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <section class="justify-content-center text-white">
-                            <h5>Contact:</h5>
-                            <ul class="list-unstyled">
-                                <li>Email: masataka.rosmarino@gmail.com</li>
-                                <li>Tel: 0034 633509479</li>
-                            </ul>
-                        </section>
+                    <div class="col-md-4 text-white">
+                        <h5>Contact:</h5>
+                        <ul class="list-unstyled">
+                            <li>Email: masataka.rosmarino@gmail.com</li>
+                            <li>Tel: 0034 633509479</li>
+                        </ul>
                     </div>
 
-                    <div class="col-md-4">
-                        <section class="justify-content-center text-white">
-                            <h5>Social Media:</h5>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><img src="images/LI-In-Bug.png" alt="LinkedIn" class="logo"> : <a href="https://www.linkedin.com/in/masataka-rosmarino-2b5312b9/" target="_blank" class="text-decoration-none text-white">Masataka Rosmarino</a></li>
-                                <li class="mb-2"><img src="images/github-mark.png" alt="Github"  class="logo"> : <a href="https://github.com/MasatakaRosmarino" target="_blank" class="text-decoration-none text-white">MasatakaRosmarino</a></li>
-                            </ul>
-                        </section>
+                    <div class="col-md-4 text-white">
+                        <h5>Social Media:</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><img src="images/LI-In-Bug.png" alt="LinkedIn" class="logo"> : <a href="https://www.linkedin.com/in/masataka-rosmarino-2b5312b9/" target="_blank" class="text-decoration-none text-white">Masataka Rosmarino</a></li>
+                            <li class="mb-2"><img src="images/github-mark.png" alt="Github"  class="logo"> : <a href="https://github.com/MasatakaRosmarino" target="_blank" class="text-decoration-none text-white">MasatakaRosmarino</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -160,10 +148,6 @@
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         
-        <!-- Popper js -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 

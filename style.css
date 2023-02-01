@@ -52,3 +52,17 @@ footer{
 footer h5, footer ul li{
     text-shadow: 1px 1px 5px #333;
 }
+.hidden-bar{
+    position: absolute;
+    top: -60px;
+}
+.visible-bar{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px ;
+    transition: all 1s;
+}
+ul.custom-bullet li::marker {
+    color: #0e6fc9;
+}
